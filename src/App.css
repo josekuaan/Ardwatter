@@ -25,7 +25,7 @@ p > a:hover{
 }
 
 header{
-  background-image: linear-gradient(to left, #103b6678,#103B66),url('../../site/src/images/foreground.jpg');
+  background-image: linear-gradient(to left, #103b6678,#103B66),url('images/foreground.jpg');
   height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
