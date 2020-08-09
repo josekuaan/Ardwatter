@@ -14,10 +14,10 @@ export default function About() {
                    <br />
                    <p>Give yourself the right picture! We brand you and give you a name that is unique and can be trusted.</p>
                 <p style={{width: '25%',display: 'flex',justifyContent: 'space-between',padding:'2rem 0'}}>
-                        <span><a href="#"><i className="fab fa-facebook icon"></i></a></span>
-                        <span><a href="#"><i className="fab fa-whatsapp icon"></i></a></span>
-                        <span><a href="#"><i className="fab fa-instagram icon"></i></a></span>
-                        <span><a href="#"><i className="fab fa-linkedin-in icon"></i></a></span>
+                        <span><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></span>
+                        <span><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></span>
+                        <span><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram icon"></i></a></span>
+                        <span><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in icon"></i></a></span>
                     </p>
                 </div>
                    <form>

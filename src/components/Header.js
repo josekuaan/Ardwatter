@@ -13,10 +13,10 @@ export default function Header() {
                         <li><i className="fal fa-alarm-clock"></i>  Mon - Sat 8.00am - 6.00pm</li>
                     </ul>
                     <ul style={{width: '12%'}}>
-                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i className="fab fa-whatsapp"></i></a></li>
-                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
                 <nav id="navBar">
