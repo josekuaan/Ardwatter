@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div className="contact">
-        <section className="container ">
+        <div className="container ">
             <div className="contact-content" id="contact">
                 <div className=" content-story">
                 <h1>GET IN TOUCH</h1>
@@ -49,7 +49,7 @@ export default function About() {
                       </div>
                    </form>
             </div>
-        </section>
+        </div>
         <div className="contact-footer-content">
             <div className="contact-footer">
             <div>
@@ -76,11 +76,12 @@ export default function About() {
             </div>
             <div className="footer-container">
             <footer>
-                <a href="#head">ARDWATTER</a>
+               <p style={{margin: 'revert'}}> Copyright ARDWATTER <spa>&copy;</spa> 2020. All rights reserved.</p> 
                 <ul>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#services">SERVICE</a></li>
-                    <li><a href="#">BLOG</a></li>
+                    <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></li>
+                    <li><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram icon"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in icon"></i></a></li>
                 </ul>
             </footer>
             </div>
