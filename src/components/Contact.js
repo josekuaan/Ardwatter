@@ -13,7 +13,7 @@ export default function About() {
                    <p>Through various state-of-the-art digital strategies, your business cannot be lagging in the world scene.</p>
                    <br />
                    <p>Give yourself the right picture! We brand you and give you a name that is unique and can be trusted.</p>
-                <p style={{width: '25%',display: 'flex',justifyContent: 'space-between',padding:'2rem 0'}}>
+                <p className="social-contact">
                         <span><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></span>
                         <span><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></span>
                         <span><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram icon"></i></a></span>
@@ -22,19 +22,19 @@ export default function About() {
                 </div>
                    <form>
                       <div className="row row1">
-                         <div className="col-lg-6 col-md-6 col-sm-6">
-                             <input type="text" placeholder="Name"/>
+                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                             <input className="control-form" type="text" placeholder="Name"/>
                          </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6">
-                             <input type="text" placeholder="Email"/>
+                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                             <input className="control-form" type="text" placeholder="Email"/>
                          </div>
                       </div>
                       <div className="row row1">
-                         <div className="col-lg-6 col-md-6 col-sm-6">
-                             <input type="text" placeholder="Phone"/>
+                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                             <input className="control-form" type="text" placeholder="Phone"/>
                          </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6">
-                             <input type="text" placeholder="Subject"/>
+                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                             <input className="control-form" type="text" placeholder="Subject"/>
                          </div>
                       </div>
                       <div className="row row1">

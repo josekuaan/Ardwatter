@@ -17,7 +17,7 @@ export default function Service() {
                 <h1>our services</h1>
                 <p>Our strategy involves sending targeted traffic to your website through tailored means in<br /> order to generate customers and leads to help your business grow</p>
                 <div className="row">
-                    <div className="col-lg-4 col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4">
                         <div className="card bg-dark hover-4 text-white">
                             <img src={socialMediamarketing} className="card-img" alt="..." />
                             <div className="hover-overlay"><h5 className="card-title">SOCIAL MEDIA MARKETING</h5></div>
@@ -58,8 +58,8 @@ export default function Service() {
                         </div>
                     </div>
                     
-                </div>
-                <div className="row">
+                {/* </div>
+                <div className="row"> */}
                     <div className="col-lg-4 col-md-4 col-sm-4">
                         <div className="card bg-dark hover-4 text-white">
                             <img src={seo_sem} className="card-img" alt="..." />
@@ -100,8 +100,8 @@ export default function Service() {
                         </div>
                     </div>
                     
-                </div>
-                <div className="row">
+                {/* </div>
+                <div className="row"> */}
                     <div className="col-lg-4 col-md-4 col-sm-4">
                         <div className="card bg-dark hover-4 text-white">
                             <img src={consult} className="card-img" alt="..." />
