@@ -399,7 +399,7 @@ input[type="submit"]{
 
 .icon{
   color: #178ECD;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .contact-footer-content{
@@ -451,6 +451,9 @@ footer{
     margin: 0 auto;
     /* padding-top: 5rem; */
 }
+footer> p{
+margin: revert;
+}
 footer > a{
   width: 11%;
   letter-spacing: 2px;
@@ -464,7 +467,7 @@ footer > a:hover{
     color: #ffffff;
 }
 footer > ul{
-  width: 22%;
+  width: 11%;
   display: flex;
   justify-content: space-between;
   font-family: Poppins;

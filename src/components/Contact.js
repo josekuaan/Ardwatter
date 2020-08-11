@@ -76,7 +76,7 @@ export default function About() {
             </div>
             <div className="footer-container">
             <footer>
-               <p style={{margin: 'revert'}}> Copyright ARDWATTER <spa>&copy;</spa> 2020. All rights reserved.</p> 
+               <p ><span style={{paddingRight:'8rem',fontFamily:'Poppins'}} href="#">ARDWATTER</span><spa>&copy;</spa> <span style={{fontSize:'0.8rem'}}>ARDWATTER</span> 2020. All rights reserved.</p> 
                 <ul>
                     <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></li>
