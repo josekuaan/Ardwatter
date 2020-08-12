@@ -175,12 +175,16 @@ section > h1{
   margin: 4rem 0 1rem 0;
 }
 
+.service >p{
+  margin: 0 0 3rem 0;
+}
 .service_img{
   width: 40%;
   margin: 0 auto;
 }
 .content >h2{
   font-size: 1.5rem!important;
+  margin: 1rem 0!important;
 }
 .card-container{
   display: flex;
@@ -352,6 +356,7 @@ section > h1{
 .clients{
   display: flex;
     justify-content: space-between;
+    padding-right: 3rem;
 }
 .container > h2{
   margin-bottom: 3rem;
@@ -412,6 +417,9 @@ section > h1{
 /* contact */
 .contact{
   background-color: #F3F3F3;
+}
+.get-in{
+  padding-right: 2.9rem;
 }
 .contact-content{
   display: flex;
@@ -489,9 +497,11 @@ input[type="submit"]{
   background-color: #041629;
   display: flex;
   justify-content: space-around;
-  padding: 2rem 9rem;
-  width: 95%;
+  padding-top: 2rem;
+  width: 77%;
   margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
 }
 .contact-footer >div{
   width: 16%;
@@ -518,18 +528,18 @@ hr{
   /* height: 10vh; */
   /* background-color: #168ECA; */
   border-top: 4px solid #168ECA;
-  padding: 2rem 0;
+  padding: 0.8rem 0;
   background-color: #fff;
 }
 
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #168ECA;;
     transform: translateY(5px);
-    width: 100%;
+    width: 74%;
     margin: 0 auto;
-    /* padding-top: 5rem; */
+    padding-right: 3.5rem;
 }
 footer> p{
 margin: revert;

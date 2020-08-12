@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function About() {
+export default function Contact() {
     return (
         <div className="contact">
-        <div className="container ">
+        <div className="container get-in">
             <div className="contact-content" id="contact">
                 <div className=" content-story">
                 <h1>GET IN TOUCH</h1>
@@ -75,7 +75,7 @@ export default function About() {
         </div>
             </div>
             <div className="footer-container">
-            <footer>
+            <footer className="">
                <p ><span style={{paddingRight:'8rem',fontFamily:'Poppins'}} href="#">ARDWATTER</span><spa>&copy;</spa> <span style={{fontSize:'0.8rem'}}>ARDWATTER</span> 2020. All rights reserved.</p> 
                 <ul>
                     <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></li>
