@@ -11,7 +11,7 @@ function App() {
   useEffect(()=>{
     Aos.init({
       duration:2000,
-      offset:100,
+      offset:300,
       // throttleDelay: 99
     })
   })
