@@ -36,7 +36,7 @@ export default function About() {
                          <a id="myBtn" onClick={()=>ReadMore()}>Read More</a>
                         </p>
                     </div>
-                    <div className="img-container" data-aos="fade-left">
+                    <div className="img-container" data-aos="fade-up">
                        <img src={ABOUT_IMG} alt="..." style={{width: '100%'}}/>
                     </div>
                  </div>
