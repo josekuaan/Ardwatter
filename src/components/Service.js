@@ -17,7 +17,7 @@ export default function Service() {
                 <h1>our services</h1>
                 <p>Our strategy involves sending targeted traffic to your website through tailored means in<br /> order to generate customers and leads to help your business grow</p>
                 <div className="row">
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-right">
                         <div className="">
                             <div className="service_img"><img src={service_icon_1} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -26,7 +26,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-up">
                         <div className="">
                            <div className="service_img"> <img src={service_icon_2} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -35,7 +35,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4"data-aos="fade-left">
                         <div className="">
                             <div className="service_img"><img src={service_icon_3} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -44,7 +44,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-right">
                         <div className="">
                             <div className="service_img"><img src={service_icon_4} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -53,7 +53,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-up">
                         <div className="">
                             <div className="service_img"><img src={service_icon_5} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -62,7 +62,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-left">
                         <div className="">
                             <div className="service_img"><img src={service_icon_6} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -71,7 +71,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-right">
                         <div className="">
                             <div className="service_img"><img src={service_icon_7} className="card-img" alt="..." /></div>
                             <div className="content">
@@ -80,7 +80,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4  col-md-4 col-sm-4">
+                    <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-up">
                         <div className="">
                             <div className="service_img"><img src={service_icon_8} className="card-img" alt="..." /></div>
                             <div className="content">

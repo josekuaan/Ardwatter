@@ -30,9 +30,9 @@ export default function Header() {
                     <a className="btn-nav" style={{color:'white'}}><i class="fas fa-align-justify"></i></a>
                 </nav>
                 <div className="hero-text">
-                    <div className="hero-text-caption"><h2>start up your business with us</h2></div>
-                    <p style={{color: 'rgb(231 230 230)',margin: '1rem 0 1rem' }}>Our passion is to holistically build thriving and cost-effective businesses by progressively leveraging on cutting-edge models.</p>
-                    <p style={{padding: '.7rem 0',width: '300px' }}>    
+                    <div className="hero-text-caption" data-aos="fade-up"  data-aos-easing="ease-in-sine"><h2>start up your business with us</h2></div>
+                    <p style={{color: 'rgb(231 230 230)',margin: '1rem 0 1rem' }} data-aos="fade-up" data-aos-easing="ease-in-sine">Our passion is to holistically build thriving and cost-effective businesses by progressively leveraging on cutting-edge models.</p>
+                    <p style={{padding: '.7rem 0',width: '300px' }} data-aos="fade-up" data-aos-easing="ease-in-sine">    
                        <a className='btn btn-read' href='#about'>Read More</a>
                     </p>
                    

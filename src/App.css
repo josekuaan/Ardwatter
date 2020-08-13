@@ -369,10 +369,8 @@ section > h1{
 }
 
 .img-cont{
-  width: 50%;
-  height: 70%;
-  display: flex;
-  justify-content: space-between;
+  width: 20%;
+  /* height: 70%; */
   
 }
 .testimony-content{
@@ -387,9 +385,6 @@ section > h1{
   margin-top: 1rem;
   text-align: left;
 }
-/* .testimony-content .img-container{
-  height: 46%;
-} */
 
 .client-details{
   display: flex;
@@ -405,11 +400,8 @@ section > h1{
   font-size: 1.2rem!important;
 }
 
-.img-content{
-  height: 30%;
-}
-.testimony-content .img-container img{
-  width: 40%;
+.testimony-content .img-cont img{
+  width: 100%;
   border-radius: 50%;
   height: 100%;
 }
