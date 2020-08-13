@@ -5,7 +5,7 @@ import client4 from '../images/client4.jpg'
 
 export default function Testimony() {
     return (
-        <section className="testimony">
+        <section className="container testimony">
             <h2>What Our Fantastic Clients Say</h2>
             <div style={{padding: '4rem 0'}}>
            <div className="container clients">

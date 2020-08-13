@@ -7,7 +7,8 @@ import step_img_4 from '../images/step_img_4.jpg'
 
 export default function Strategy() {
     return (
-        <div className='strategy-section'>
+        <div className=' strategy-section'>
+            <div className='container'>
             <div className="step-content" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease-in-sine">
                 <div className="strategy-content ">
                     <div className="steps"><h1><span style={{color:'#FF497C'}}>01</span>Strategy</h1></div>
@@ -35,6 +36,7 @@ export default function Strategy() {
                     <div className="steps "><div className=" step_img_ step_img_4"><img src={step_img_4} alt="..." /></div></div>
                     <div className="steps"><h1><span style={{color:'#F1894C'}}>04</span> Support</h1></div>
                 </div>
+           </div>
            </div>
         </div>
     )
