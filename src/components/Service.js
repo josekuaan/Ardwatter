@@ -12,7 +12,7 @@ import service_icon_4 from '../images/service_icon_4.png'
 
 export default function Service() {
     return (
-        <section className="container">
+        <section className="containers">
             <div id="services" >
                 <h1>our services</h1>
                 <p>Our strategy involves sending targeted traffic to your website through tailored means in<br /> order to generate customers and leads to help your business grow</p>

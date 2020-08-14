@@ -17,7 +17,7 @@ export default function Contact() {
     }
     return (
         <div className="contact">
-        <div className="container get-in">
+        <div className="containers get-in">
             <div className="contact-content" id="contact">
                 <div className=" content-story">
                 <h1>GET IN TOUCH</h1>
@@ -80,7 +80,7 @@ export default function Contact() {
             </div>
             <div>
                 <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-tachometer-alt"></i></h1>
-                <p style={{marginBottom:'0px'}}>YOR COMPANY</p>
+                <p style={{marginBottom:'0px'}}>YOUR COMPANY</p>
             </div>
             <div>
                 <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-hourglass-half"></i></h1>

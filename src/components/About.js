@@ -19,7 +19,7 @@ export default function About() {
         }
       }
     return (
-            <section className="container ">
+            <section className="containers ">
                  <div className="about-content" id="about">
                  <div className=" about-story">
                         <h1>A FEW WORDS <span style={{color: '#768EA7'}}>&#45;</span> ABOUT US</h1>

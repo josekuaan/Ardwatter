@@ -5,21 +5,24 @@ export default function Header() {
         <header>
             <div id="head">
                 <div className="contact-bar">
-                    <ul className="address">
-                        <li><i className="fal fa-phone-alt"></i>  +2349035596977</li> 
-                        <li>&#124;</li>
-                        <li><i className="fal fa-envelope"></i>  ardwatterdigital@gmail.com</li> 
-                        <li>&#124; </li>
-                        <li><i className="fal fa-alarm-clock"></i>  Mon - Sat 8.00am - 6.00pm</li>
-                    </ul>
-                    <ul style={{width: '15%'}}>
-                        <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp"></i></a></li>
-                        <li><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in"></i></a></li>
-                    </ul>
+                    <div className="contact-address">
+                        <ul className="address">
+                            <li><i className="fal fa-phone-alt"></i>  +2349035596977</li> 
+                            <li>&#124;</li>
+                            <li><i className="fal fa-envelope"></i>  ardwatterdigital@gmail.com</li> 
+                            <li>&#124; </li>
+                            <li><i className="fal fa-alarm-clock"></i>  Mon - Sat 8.00am - 6.00pm</li>
+                        </ul>
+                        <ul className="contact-social">
+                            <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <nav id="navBar">
+                <nav>
+                    <div id="navBar">
                     <p><a href="#">ARDWATTER</a></p>
                     <ul>
                         <li><a href="#">HOME</a></li>
@@ -28,6 +31,7 @@ export default function Header() {
                         <li><a href="#">BLOG</a></li>
                     </ul>
                     <a className="btn-nav" style={{color:'white'}}><i className="fas fa-align-justify"></i></a>
+                    </div>
                 </nav>
                 <div className="hero-text">
                     <div className="hero-text-caption" data-aos="fade-up"  data-aos-easing="ease-in-sine"><h2>start up your business with us</h2></div>

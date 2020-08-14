@@ -5,6 +5,7 @@ import StickyFunc from './src'
 import ReadMore from './readmore'
 import Home from './pages/Home';
 import './App.css';
+import './query.css';
 
 function App() {
 
