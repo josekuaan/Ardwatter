@@ -8,7 +8,7 @@ export default function Testimony() {
         <section className="containers testimony">
             <h2>What Our Fantastic Clients Say</h2>
             <div style={{padding: '4rem 0'}}>
-           <div className="container clients">
+           <div className=" clients">
                <div className="testimony-content">
                         <div className="img-content">
                             <div className="img-cont"><img src={client2} alt="..." /></div>

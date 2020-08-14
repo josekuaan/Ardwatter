@@ -36,7 +36,7 @@ export default function Contact() {
                 </div>
                    <form onSubmit={handleSubmit}>
                       <div className="row row1">
-                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                         <div className="col-lg-6 col-md-6 col-sm-6 ">
                              <input name='name' className="control-form" type="text" placeholder="Name" onChange={handleChange}/>
                          </div>
                          <div className="col-lg-6 col-md-6 col-sm-6 fields">
@@ -44,20 +44,20 @@ export default function Contact() {
                          </div>
                       </div>
                       <div className="row row1">
-                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                         <div className="col-lg-6 col-md-6 col-sm-6 ">
                              <input name='phone' className="control-form" type="text" placeholder="Phone" onChange={handleChange}/>
                          </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                         <div className="col-lg-6 col-md-6 col-sm-6  fields">
                              <input name='subject' className="control-form" type="text" placeholder="Subject" onChange={handleChange}/>
                          </div>
                       </div>
                       <div className="row row1">
-                         <div className="col-lg-12 col-md-12 col-sm-12">
+                         <div className="col-lg-12 col-md-12 col-sm-12 ">
                              <textarea name='message' rows="4" cols="50" placeholder="Any Message" onChange={handleChange} />
                          </div>
                       </div>
                       <div className="row row1">
-                         <div style={{textAlign: 'left'}}className="col-lg-12 col-md-12 col-sm-12">
+                         <div style={{textAlign: 'left',marginBottom: '1rem'}}className="col-lg-12 col-md-12 col-sm-12">
                              <input type="submit" value="SUBMIT"/>
                          </div>
                       </div>

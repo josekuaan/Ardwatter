@@ -41,13 +41,19 @@ and (max-width : 1026px) {
     width: 58%;
     font-size: 0.7rem;
   }
+  #navBar ul {
+    font-size: 0.8rem;
+     }
   .about-story h1{
     font-size: 2.3rem;
-    width: 89%;
+    width: 90%;
   }
   .steps .left {
     margin-left: 57px;
 
+  }
+  .steps .right span {
+    left: 39%;
   }
   .steps .left span{
     font-size: 115px;
@@ -64,24 +70,7 @@ and (max-width : 1026px) {
     padding-right: 0;
   }
 }
-@media only screen 
-and (max-width : 950px) {
-  .about-story h1{
-    font-size: 2rem;
-    width: 71%;
-  }
-  .img-container{
-    width: 49%;
-  }
-  
-}
-@media only screen 
-and (max-width : 950px) {
-  .about-story h1 {
-    font-size: 1.5rem;
-    width: 59%;
-}
-}
+
 
 /* iPads (portrait) ----------- */
 @media only screen 
@@ -90,7 +79,13 @@ and  (max-device-width : 1024px)  {
     width: 60%;
     font-size: .7rem;
   }
-
+  
+  .service_img{
+    width: 40%;
+  }
+.content h2{
+  font-size: 1.2rem!important;
+}
   
 }
 @media only screen 
@@ -104,6 +99,17 @@ and  (max-device-width : 985px)  {
 
 @media only screen 
 and  (max-device-width : 985px)  {
+  .containers {
+    max-width: 80%;
+  }
+  #navBar > p {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+  #navBar > ul {
+    font-size: 0.8rem;
+    width: 29%;
+  }
   .contact-bar .contact-address{
     width: 79%;
   }
@@ -113,12 +119,123 @@ and  (max-device-width : 985px)  {
   .strategy-content .step_img_2::after {
     display: none;
  }
+
+ .testimony-content{
+  font-size: .95rem;
+ }
+
+ .content-stry{
+  font-size: 2rem;
+ }
+ .row1 .fields {
+  padding-left: 2px;
+ }
+ .contact-footer{
+    width: 85%;
+ }
+ .contact-footer >div{
+  padding: 0.7rem 1rem;
+ }
+
+ .social-contact {
+  width: 36%;
+ }
+
+ footer{
+  padding-right: 0;
+  width: 80%;
+
+ }
+
+ footer ul{
+   width: 20%;
+  margin: revert;
+ }
+
+ #services .row .col-lg-4{
+  flex: 0 0 48.333333%;
+  max-width: 48.333333%;
+ }
+  
+}
+
+@media only screen 
+and (max-width : 950px) {
+  .about-story h1{
+    font-size: 1.5rem;
+    width: 50%;
+  }
+  .img-container{
+    width: 49%;
+  }
+ 
   
 }
  
+@media only screen 
+and  (max-device-width : 834px)  {
+  .about-story h1 {
+    width: 60%
+  }
+  .steps h1{
+    font-size: 40px;
+  }
+  .steps .left span{
+    font-size: 89px;
+    left: 25%;
+  }
+  .steps .right span{
+    left: 24%;
+    font-size: 80px;
+    top: -11px;
+  }
+  .steps .left{
+    margin-left:132px
+  }
+  .steps .right {
+    margin-left: 120px;
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+  }
+  .step-content .lft {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .step-content .rgt{
+    flex-wrap: wrap-reverse;
+  }
+  .strategy-content .steps{
+    width: 100%;
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  .strategy-content .steps img {
+    max-width: 40%;
+  }
+  .contact-content{
+    flex-wrap: wrap;
+  }
+  .content-story {
+    width: 100%;
+  }
+  .content-story h1{
+    font-size: 2rem;
+  }
+  form{
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  form .control-form{
+    width:100%
+  }
+}
+
 
 @media only screen 
 and  (max-device-width : 768px)  {
+  .contact-bar{
+    display: none;
+  }
   #navBar ul{
     display: none;
   }
@@ -127,6 +244,16 @@ and  (max-device-width : 768px)  {
     display: block;
     width: 30%;
     text-align: right;
+  }
+  .about-story h1 {
+    width: 62%
+  }
+  .clients{
+    flex-wrap: wrap;
+  }
+  .testimony-content{
+    width: 48%;
+    margin-top: 1rem;
   }
 
   
@@ -147,7 +274,13 @@ and  (max-device-width : 750px)  {
   width: 90%;
  }
 
-  
+  #services .row .col-lg-4{
+    flex: 0 0 100%;
+    max-width: 100%;
+  } 
+  .service_img {
+    width: 30%;
+}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -155,5 +288,8 @@ and  (max-device-width : 750px)  {
 and (max-device-width : 480px) {
   .contact-bar {
     display: none;
+  }
+  .hero-text {
+    width: 427px;
   }
 }

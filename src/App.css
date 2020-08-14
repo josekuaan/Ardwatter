@@ -219,6 +219,9 @@ section > h1{
 .row1{
   margin-top: 0.8rem;
 }
+.row1 .fields{
+  padding-left: 10px;
+}
 .row .col-lg-4 .card{
   position: relative;
   overflow: hidden;
@@ -252,6 +255,7 @@ section > h1{
   
 }
 .steps{
+  font-family: Poppins;
   width: 33.33%;
   position: relative;
   color: #F3F3F3;
@@ -532,12 +536,13 @@ footer > a:hover{
     color: #ffffff;
 }
 footer > ul{
-  width: 11%;
+  width: 16%;
   display: flex;
   justify-content: space-between;
   font-family: Poppins;
   font-weight: 400;
   list-style: none;
+  margin: revert;
 }
 
 
