@@ -8,9 +8,6 @@ and (max-width : 1240px) {
   .contact-bar .contact-address .address{
     width: 56%;
   }
-  /* .about-story h1{
-    width: 67%;
-  } */
 }
 
 @media only screen 
@@ -19,7 +16,8 @@ and (min-width : 1224px) {
     width: 54%;
   }
   .about-story h1{
-    width: 69%;
+    width: 56%;
+    font-size: 2.9rem
   }
 }
 @media only screen 
@@ -88,17 +86,12 @@ and  (max-device-width : 1024px)  {
 }
   
 }
+
 @media only screen 
 and  (max-device-width : 985px)  {
-  .contact-bar .contact-address .address{
-    width: 64%;
+  .hero-text .hero-text-caption {
+    font-size: 1.4rem!important;
   }
-
-  
-}
-
-@media only screen 
-and  (max-device-width : 985px)  {
   .containers {
     max-width: 80%;
   }
@@ -110,6 +103,9 @@ and  (max-device-width : 985px)  {
     font-size: 0.8rem;
     width: 29%;
   }
+  /* .contact-bar .contact-address .address{
+    width: 64%;
+  } */
   .contact-bar .contact-address{
     width: 79%;
   }
@@ -131,10 +127,13 @@ and  (max-device-width : 985px)  {
   padding-left: 2px;
  }
  .contact-footer{
-    width: 85%;
+  flex-wrap: wrap;
+  /* justify-content: start; */
  }
  .contact-footer >div{
   padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  width: 40%;
  }
 
  .social-contact {
@@ -161,6 +160,9 @@ and  (max-device-width : 985px)  {
 
 @media only screen 
 and (max-width : 950px) {
+  .hero-text .hero-text-caption {
+    font-size: 1.5rem!important;
+  }
   .about-story h1{
     font-size: 1.5rem;
     width: 50%;
@@ -168,12 +170,15 @@ and (max-width : 950px) {
   .img-container{
     width: 49%;
   }
- 
+ .social-contact{
+   display: none;
+ }
   
 }
  
 @media only screen 
 and  (max-device-width : 834px)  {
+ 
   .about-story h1 {
     width: 60%
   }
@@ -210,7 +215,7 @@ and  (max-device-width : 834px)  {
     margin: 1.5rem 0;
   }
   .strategy-content .steps img {
-    max-width: 40%;
+    max-width: 50%;
   }
   .contact-content{
     flex-wrap: wrap;
@@ -228,11 +233,16 @@ and  (max-device-width : 834px)  {
   form .control-form{
     width:100%
   }
+  footer{font-size: 0.7rem;}
+  footer p .footer-logo{padding-right:4rem;}
 }
 
 
 @media only screen 
-and  (max-device-width : 768px)  {
+and  (max-device-width : 778px)  {
+  .containers {
+    max-width: 75%;
+}
   .contact-bar{
     display: none;
   }
@@ -242,7 +252,7 @@ and  (max-device-width : 768px)  {
 
   .btn-nav{
     display: block;
-    width: 30%;
+    width: 34%;
     text-align: right;
   }
   .about-story h1 {
@@ -260,6 +270,27 @@ and  (max-device-width : 768px)  {
 }
 @media only screen 
 and  (max-device-width : 750px)  {
+  .hero-text {
+    width: 467px;
+    left: 18.8%;
+  }
+  #navBar {
+    justify-content: space-around;
+  }
+  .hero-text .hero-text-caption {
+    font-size: 1.2rem!important;
+}
+
+.hero-text .hero-text-caption {
+    width: 355px;
+}
+.hero-text-subcaption{
+  width: 78%;
+  font-size: 0.7rem;
+}
+.btn{
+  font-size: 0.8rem;
+}
  .about-content{
   flex-wrap: wrap-reverse;
  }
@@ -278,8 +309,16 @@ and  (max-device-width : 750px)  {
     flex: 0 0 100%;
     max-width: 100%;
   } 
-  .service_img {
-    width: 30%;
+  .contact-footer {
+
+    justify-content: space-between;
+  }
+  .contact-footer >div {
+    padding: 0.7rem 0;
+    width: 47%;
+  }
+  footer ul {
+    width: 28%;
 }
 }
 

@@ -35,29 +35,20 @@ export default function Contact() {
                     </p>
                 </div>
                    <form onSubmit={handleSubmit}>
-                      <div className="row row1">
-                         <div className="col-lg-6 col-md-6 col-sm-6 ">
+                      <div className=" row1">
+                         <div className=" ">
                              <input name='name' className="control-form" type="text" placeholder="Name" onChange={handleChange}/>
                          </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 fields">
+                         <div className=" fields">
                              <input name='email' className="control-form" type="text" placeholder="Email" onChange={handleChange}/>
                          </div>
-                      </div>
-                      <div className="row row1">
-                         <div className="col-lg-6 col-md-6 col-sm-6 ">
-                             <input name='phone' className="control-form" type="text" placeholder="Phone" onChange={handleChange}/>
-                         </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6  fields">
+                         <div className=" fields">
                              <input name='subject' className="control-form" type="text" placeholder="Subject" onChange={handleChange}/>
                          </div>
-                      </div>
-                      <div className="row row1">
-                         <div className="col-lg-12 col-md-12 col-sm-12 ">
+                         <div className="">
                              <textarea name='message' rows="4" cols="50" placeholder="Any Message" onChange={handleChange} />
                          </div>
-                      </div>
-                      <div className="row row1">
-                         <div style={{textAlign: 'left',marginBottom: '1rem'}}className="col-lg-12 col-md-12 col-sm-12">
+                         <div style={{textAlign: 'left',marginBottom: '1rem'}}>
                              <input type="submit" value="SUBMIT"/>
                          </div>
                       </div>
@@ -65,7 +56,7 @@ export default function Contact() {
             </div>
         </div>
         <div className="contact-footer-content">
-            <div className="contact-footer">
+            <div className=" containers contact-footer">
             <div>
                 <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-folder-open"></i></h1>
                 <p style={{marginBottom:'0px'}}>NEW COMPANY</p>
@@ -90,7 +81,7 @@ export default function Contact() {
             </div>
             <div className="footer-container">
             <footer className="">
-               <p ><span style={{paddingRight:'8rem',fontFamily:'Poppins'}} href="#">ARDWATTER</span><span>&copy;</span> <span style={{fontSize:'0.8rem'}}>ARDWATTER</span> 2020. All rights reserved.</p> 
+               <p ><span className="footer-logo" style={{fontFamily:'Poppins'}} href="#">ARDWATTER</span><span>&copy;</span> <span style={{fontSize:'0.8rem'}}>ARDWATTER</span> 2020. All rights reserved.</p> 
                 <ul>
                     <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></li>

@@ -219,9 +219,7 @@ section > h1{
 .row1{
   margin-top: 0.8rem;
 }
-.row1 .fields{
-  padding-left: 10px;
-}
+
 .row .col-lg-4 .card{
   position: relative;
   overflow: hidden;
@@ -398,7 +396,7 @@ section > h1{
   background-color: #F3F3F3;
 }
 .get-in{
-  padding-right: 2.9rem;
+  padding-right: 1.9rem;
 }
 .contact-content{
   display: flex;
@@ -407,7 +405,7 @@ section > h1{
 }
 
 .content-story{
-  width: 46%;
+  width: 50%;
   text-align: left;
   font-family: Roboto;
     font-weight: 300;
@@ -442,13 +440,16 @@ textarea{
 :-moz-placeholder { /* Firefox 18- */
   font-style: italic;
 }
-input{
+.control-form{
   border: 1px solid #e9e7e7 ;
   height: 40px;
   padding: 0.7rem;
+  width: 100%;
+  margin-bottom:1rem
 }
 form{
   margin-top: 3.5rem;
+  width: 50%;
 }
 input:focus {
   outline:none;
@@ -456,12 +457,14 @@ input:focus {
 
 input[type="submit"]{
   background-color: #178ECD;
-  color: white;
-    line-height: 2px;
-    border-radius: 10px;
-    padding: 0 2rem;
+    color: white;
+     line-height: 30px;
+    border-radius: 10px; 
+     padding: 0 2rem; 
     font-family: Poppins;
     font-weight: 600;
+    border: 1px solid #e9e7e7 ;
+    margin-top: 1.5rem;
 }
 
 .icon{
@@ -523,6 +526,7 @@ footer{
 footer> p{
 margin: revert;
 }
+
 footer > a{
   width: 11%;
   letter-spacing: 2px;
