@@ -24,8 +24,8 @@ p > a:hover{
 }
  
 header{
-  background-image: linear-gradient(to left, #103b6678,#103B66),url('images/foreground.jpg');
-  height: 70vh;
+  background-image: linear-gradient(to right, #103b6678,#103B66),url('images/foreground.jpg');
+  height: 80vh;
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,8 +89,13 @@ header{
 
 #navBar{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color:#ffffff ;
+  width: 74%;
+  margin: 0 auto;
+}
+#navBar img{
+width: 100%;
 }
 #navBar ul{
   width: 30%;
@@ -105,7 +110,7 @@ header{
 }
 
 #navBar > p{
-  width: 18%;
+  width: 30%;
   letter-spacing: 2px;
   font-family: Poppins;
   font-weight: 700;
@@ -396,7 +401,7 @@ section > h1{
   background-color: #F3F3F3;
 }
 .get-in{
-  padding-right: 1.9rem;
+  padding-right: 1.3rem;
 }
 .contact-content{
   display: flex;
@@ -480,13 +485,13 @@ input[type="submit"]{
   display: flex;
   justify-content: space-around;
   padding-top: 2rem;
-  width: 77%;
+  width: 74%;
   margin: 0 auto;
   padding-bottom: 2rem;
-  padding-right: 3rem;
+  padding-right: 1rem;
 }
 .contact-footer >div{
-  width: 16%;
+  width: 17%;
   background-color: white;
     text-align: center;
     padding: 0.7rem 2rem;
@@ -521,7 +526,10 @@ footer{
     transform: translateY(5px);
     width: 74%;
     margin: 0 auto;
-    padding-right: 3.5rem;
+    padding-right: 2.5rem;
+}
+footer p .footer-logo{
+  padding-right: 14rem;
 }
 footer> p{
 margin: revert;

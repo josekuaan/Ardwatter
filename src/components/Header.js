@@ -1,4 +1,5 @@
 import React from 'react'
+import ardwatter from '../images/ardwatter.png'
 
 export default function Header() {
     return (
@@ -23,7 +24,7 @@ export default function Header() {
                 </div>
                 <nav>
                     <div id="navBar">
-                    <p><a href="#">ARDWATTER</a></p>
+                    <p><a href="#"><img src={ardwatter} /></a></p>
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#about">ABOUT US</a></li>
