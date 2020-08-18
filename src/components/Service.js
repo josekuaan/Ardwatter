@@ -30,7 +30,7 @@ export default function Service() {
                         <div className="">
                            <div className="service_img"> <img src={service_icon_7} className="card-img" alt="..." /></div>
                             <div className="content">
-                                <h2>CLIENT SUPPORT</h2>
+                               <h2>CONSULTING</h2>
                                 <p>Our experienced team of web designers and developers use best practices to create custom websites that are user friendly and responsive.</p>
                             </div>
                         </div>
@@ -75,7 +75,8 @@ export default function Service() {
                         <div className="">
                             <div className="service_img"><img src={service_icon_2} className="card-img" alt="..." /></div>
                             <div className="content">
-                                <h2>CONSULTING</h2>
+                            <h2>WEB DEVELOPMENT</h2>
+                                
                                 <p>Meet with us and we will give you direction and guide on taking your business to the next level.</p>
                             </div>
                         </div>
@@ -84,7 +85,7 @@ export default function Service() {
                         <div className="">
                             <div className="service_img"><img src={service_icon_8} className="card-img" alt="..." /></div>
                             <div className="content">
-                            <h2>WEB DEVELOPMENT</h2>
+                                <h2>CLIENT SUPPORT</h2>
                                 <p>After all these, we give you the necessary support needed at all times.</p>
                             </div>
                         </div>
