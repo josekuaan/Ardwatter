@@ -322,10 +322,25 @@ and  (max-device-width : 750px)  {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (max-device-width : 480px) {
+  #navBar{
+    width: 100%;
+  }
+  .containers{
+    max-width: 100%;
+  }
   .contact-bar {
     display: none;
   }
   .hero-text {
-    width: 427px;
+    width: 375px;
+  }
+  .hero-text .hero-text-caption h1{
+    font-size: 1rem!important;
+  }
+  .testimony-content {
+    width: 100%;
+  }
+  .footer-content{
+    flex-wrap: wrap;
   }
 }
