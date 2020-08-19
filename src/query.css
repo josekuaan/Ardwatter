@@ -323,7 +323,7 @@ and  (max-device-width : 750px)  {
 @media only screen 
 and (max-device-width : 480px) {
   #navBar{
-    width: 100%;
+    width: 99%;
   }
   .containers{
     max-width: 100%;
