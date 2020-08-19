@@ -13,12 +13,9 @@ and (max-width : 1240px) {
 @media only screen 
 and (min-width : 1224px) {
   .contact-bar .contact-address .address{
-    width: 54%;
+    width: 50%;
   }
-  .about-story h1{
-    width: 56%;
-    font-size: 2.9rem
-  }
+  
 }
 @media only screen 
 and (max-width : 1219px) {

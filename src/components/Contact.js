@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import ardwatter from '../images/ardwatter.png'
 
 export default function Contact() {
     const [user,setUserData]= useState({name:'',email:'', phone:'',subject:'', message:''})
@@ -16,80 +17,47 @@ export default function Contact() {
         console.log(user)
     }
     return (
-        <div className="contact">
-        <div className="containers get-in">
-            <div className="contact-content" id="contact">
-                <div className=" content-story">
-                <h1>GET IN TOUCH</h1>
-                   <p>We are a creative digital agency focused on growing businesses online.</p>
-                   <hr />
-                   <br />
-                   <p>Through various state-of-the-art digital strategies, your business cannot be lagging in the world scene.</p>
-                   <br />
-                   <p>Give yourself the right picture! We brand you and give you a name that is unique and can be trusted.</p>
-                <p className="social-contact">
-                        <span><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></span>
-                        <span><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></span>
-                        <span><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram icon"></i></a></span>
-                        <span><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in icon"></i></a></span>
-                    </p>
-                </div>
-                   <form onSubmit={handleSubmit}>
-                      <div className=" row1">
-                         <div className=" ">
-                             <input name='name' className="control-form" type="text" placeholder="Name" onChange={handleChange}/>
-                         </div>
-                         <div className=" fields">
-                             <input name='email' className="control-form" type="text" placeholder="Email" onChange={handleChange}/>
-                         </div>
-                         <div className=" fields">
-                             <input name='subject' className="control-form" type="text" placeholder="Subject" onChange={handleChange}/>
-                         </div>
-                         <div className="">
-                             <textarea name='message' rows="4" cols="50" placeholder="Any Message" onChange={handleChange} />
-                         </div>
-                         <div style={{textAlign: 'left',marginBottom: '1rem'}}>
-                             <input type="submit" value="SUBMIT"/>
-                         </div>
-                      </div>
-                   </form>
-            </div>
-        </div>
-        <div className="contact-footer-content">
-            <div className=" containers contact-footer">
-            <div>
-                <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-folder-open"></i></h1>
-                <p style={{marginBottom:'0px'}}>NEW COMPANY</p>
-            </div>
-            <div>
-                <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-futbol"></i></h1>
-                <p style={{marginBottom:'0px'}}>NEW AGENCY</p>
-            </div>
-            <div>
-                <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="far fa-cube"></i></h1>
-                <p style={{marginBottom:'0px'}}>MY AGENCY</p>
-            </div>
-            <div>
-                <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-tachometer-alt"></i></h1>
-                <p style={{marginBottom:'0px'}}>YOUR COMPANY</p>
-            </div>
-            <div>
-                <h1 style={{marginBottom:'0px',color:'#168ECA'}}><i className="fas fa-hourglass-half"></i></h1>
-                <p style={{marginBottom:'0px'}}>NICE AGENCY</p>
-            </div>
-        </div>
-            </div>
-            <div className="footer-container">
-            <footer className="">
-               <p ><span className="footer-logo" style={{fontFamily:'Poppins'}} href="#">ARDWATTER</span><span>&copy;</span> <span style={{fontSize:'0.8rem'}}>ARDWATTER</span> 2020. All rights reserved.</p> 
+        <>
+            <div className="contact-footer-content">
+                <div className=" containers">
+                <div className="footer-content">
                 <ul>
-                    <li><a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a></li>
-                    <li><a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram icon"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in icon"></i></a></li>
+                    <li>Support</li>
+                    <li>+2349035596977</li>
+                    <li style={{fontSize: '.9rem'}}>mail@ardwatter.com</li>
+                    <li style={{fontSize: '.9rem'}}>24 HOURS A DAY</li>
+                    {/* <li></li> */}
                 </ul>
-            </footer>
+                    <ul>
+                        <li>Follow Us</li>
+                        <li>SOCIAL MEDIA CHANNELS</li>
+                        <li className="media-icon">
+                            <a href="http://www.facebook.com/ardwatter"><i className="fab fa-facebook icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=2347087216343"><i className="fab fa-whatsapp icon"></i></a>
+                            <a href="https://www.instagram.com/ardwatter/"><i className="fab fa-instagram icon"></i></a>
+                            <a href="https://www.linkedin.com/company/18245563"><i className="fab fa-linkedin-in icon"></i></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Our Newsletter</li>
+                        <li>SIGNUP FOR SPECIAL OFFERS</li>
+                        <li>
+                            <form className="subscribe">
+                                <input type="email" placeholder="E-mail" />
+                                <button className="btn">SUBSCRIBE</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                </div>
             </div>
-        </div>
+            <footer className="containers">
+                <div className="footer-copyright">
+                    <span>&copy;</span> 
+                    <span style={{fontSize:'0.8rem'}}> ARDWATTER </span>  2020. All rights reserved.
+                </div> 
+            
+            </footer>
+        </>
     )
 }

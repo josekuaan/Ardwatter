@@ -16,7 +16,7 @@ export default function Service() {
             <div id="services" >
                 <h1>our services</h1>
                 <p>Our strategy involves sending targeted traffic to your website through tailored means in<br /> order to generate customers and leads to help your business grow</p>
-                <div className="row">
+                <div className="row service-content">
                     <div className="col-lg-4  col-md-4 col-sm-4" data-aos="fade-right">
                         <div className="">
                             <div className="service_img"><img src={service_icon_1} className="card-img" alt="..." /></div>
