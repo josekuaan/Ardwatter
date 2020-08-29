@@ -283,7 +283,7 @@ section > h1{
     display: block;
     height: 136px;
     position: absolute;
-    right: 72px;
+    right: 50px;
     width: 34px;
     z-index: 4;
 }
@@ -297,7 +297,7 @@ section > h1{
     height: 136px;
     position: absolute;
     right: auto;
-    left: 35px;
+    left: 50px;
     width: 34px;
     z-index: 4;
 }
