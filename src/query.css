@@ -247,6 +247,15 @@ and  (max-device-width : 778px)  {
     display: none;
   }
 
+  #navBar .hide{
+    display: none;
+  }
+  #navBar .show{
+    display: block;
+  }
+
+
+
   .btn-nav{
     display: block;
     width: 34%;
@@ -337,6 +346,9 @@ and (max-device-width : 480px) {
   .hero-text .hero-text-caption h1{
     font-size: 1rem!important;
   }
+  .strategy-content .steps img {
+    max-width: 80%;
+}
   .testimony-content {
     width: 100%;
   }

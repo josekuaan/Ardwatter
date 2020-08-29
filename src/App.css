@@ -39,6 +39,11 @@ header{
   display: none;
   font-size: 2rem;
 }
+.show{
+  display: none;
+  font-size: 2rem;
+}
+
 
 .sticky{
   position: fixed;

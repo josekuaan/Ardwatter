@@ -2,6 +2,21 @@ import React from 'react'
 import ardwatter from '../images/ardwatter.png'
 
 export default function Header() {
+    
+    const show=()=>{
+        const close = document.getElementById('close')
+    const open = document.getElementById('justify')
+        console.log(close)
+        if(close.className.display === 'none'){
+            close.addClass('show')
+            open.removeClass('show')
+            close.removeClass('hide')
+            
+        }else{
+            open.addClass('show')
+            close.removeClass('show')
+        }
+    }
     return (
         <header>
             <div id="head">
@@ -31,7 +46,8 @@ export default function Header() {
                         <li><a href="#services">SERVICE</a></li>
                         <li><a href="#">BLOG</a></li>
                     </ul>
-                    <a className="btn-nav" style={{color:'white'}}><i className="fas fa-align-justify"></i></a>
+                    <a className="btn-nav show" id='justify' style={{color:'white'}} onClick={show}><i className="fas fa-align-justify"></i></a>
+                    <a className="btn-nav hide" id="close" style={{color:'white'}} onClick={show}><i class="far fa-times"></i></a>
                     </div>
                 </nav>
                 <div className="hero-text">
