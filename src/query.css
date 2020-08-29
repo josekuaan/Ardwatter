@@ -211,8 +211,8 @@ and  (max-device-width : 834px)  {
     text-align: center;
     margin: 1.5rem 0;
   }
-  .strategy-content .steps img {
-    max-width: 50%;
+  .step_img_ {
+    max-width: 60%;
   }
   .contact-content{
     flex-wrap: wrap;
@@ -346,9 +346,9 @@ and (max-device-width : 480px) {
   .hero-text .hero-text-caption h1{
     font-size: 1rem!important;
   }
-  .strategy-content .steps img {
+  /* .strategy-content .steps img {
     max-width: 80%;
-}
+} */
   .testimony-content {
     width: 100%;
   }
