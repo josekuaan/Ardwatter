@@ -342,7 +342,6 @@ section > h1{
 .step_img_{
   padding: 0 4rem;
   width: 90%;
-  margin: 0 auto;
 }
 .strategy-content .steps img{
   border: 10px solid rgba(255, 255, 255, 0.1);
