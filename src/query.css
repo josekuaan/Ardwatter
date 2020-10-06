@@ -93,7 +93,7 @@ and  (max-device-width : 985px)  {
     max-width: 80%;
   }
   #navBar > p {
-    width: 30%;
+    width: 18%;
     font-size: 0.8rem;
   }
   #navBar > ul {
@@ -212,7 +212,7 @@ and  (max-device-width : 834px)  {
     margin: 1.5rem 0;
   }
   .step_img_ {
-    max-width: 70%;
+    max-width: 57%;
   }
   .contact-content{
     flex-wrap: wrap;
@@ -237,24 +237,13 @@ and  (max-device-width : 834px)  {
 
 @media only screen 
 and  (max-device-width : 778px)  {
+
   .containers {
     max-width: 75%;
 }
   .contact-bar{
     display: none;
   }
-  #navBar ul{
-    display: none;
-  }
-
-  #navBar .hide{
-    display: none;
-  }
-  #navBar .show{
-    display: block;
-  }
-
-
 
   .btn-nav{
     display: block;
@@ -281,7 +270,14 @@ and  (max-device-width : 750px)  {
     left: 18.8%;
   }
   #navBar {
+    width: 100%;
     justify-content: space-around;
+  }
+  #navBar > p {
+    width: 16%;
+  }
+  #navbar .nav-ul{
+    width: 55%;
   }
   .hero-text .hero-text-caption {
     font-size: 1.2rem!important;
@@ -334,6 +330,15 @@ and (max-device-width : 480px) {
   #navBar{
     width: 99%;
   }
+  #navBar > p {
+    width: 20%;
+  }
+  #navBar .nav-ul {
+    display: none;
+  }
+  #navBar .toggle-nav{
+    display: block;
+  }
   .containers{
     max-width: 100%;
   }
@@ -349,6 +354,8 @@ and (max-device-width : 480px) {
   /* .strategy-content .steps img {
     max-width: 80%;
 } */
+.service_img {width: 30%;}
+
   .testimony-content {
     width: 100%;
   }

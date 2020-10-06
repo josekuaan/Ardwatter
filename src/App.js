@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import Home from './pages/Home';
@@ -16,9 +17,14 @@ function App() {
   })
  
   return (
+    <Router>
+      
     <div className="App">
-      <Home />
+    <Switch>
+      <Route path="/" component={Home}/>
+      </Switch>
     </div>
+    </Router>
   );
 }
 

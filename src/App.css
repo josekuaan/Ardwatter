@@ -101,10 +101,13 @@ header{
   width: 82%;
   margin: 0 auto;
 }
+#navBar .toggle-nav{
+  display: none;
+}
 #navBar img{
 width: 100%;
 }
-#navBar ul{
+#navBar .nav-ul{
   width: 30%;
   display: flex;
   justify-content: space-between;
@@ -273,6 +276,8 @@ section > h1{
   width: 33.33%;
   position: relative;
   color: #F3F3F3;
+  display: flex;
+  justify-content: center;
   z-index: 1;
 }
 .strategy-content .step_img_1::after,.step_img_3::after{
@@ -330,7 +335,7 @@ section > h1{
   position: absolute;
   top: -100px;
   left: 32%;
- 
+  
   /* width: 100%; */
   z-index: -1;
   font-size: 200px;
@@ -341,7 +346,7 @@ section > h1{
 }
 .step_img_{
   padding: 0 4rem;
-  width: 90%;
+  width: 89%;
 }
 .strategy-content .steps img{
   border: 10px solid rgba(255, 255, 255, 0.1);
