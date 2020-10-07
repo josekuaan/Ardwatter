@@ -11,23 +11,29 @@ export default function Testimony() {
            <div className=" clients">
                <div className="testimony-content">
                         <div className="img-content">
-                            <div className="img-cont"><img src={client2} alt="..." /></div>
-                            <span style={{marginTop: '1rem'}}>Mr Ifeanyi</span>
+                            <div className="img-cont">
+                                <img src={client2} alt="..." />
+                                </div>
+                                <span >Mr Ifeanyi</span>
                         </div>
                     <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
                 </div>
                 
                <div className="testimony-content">
                         <div className="img-content">
-                            <div className="img-cont"><img src={client3} alt="..." /></div>
-                            <span style={{marginTop: '1rem'}}>Mr Ifeanyi</span>
+                            <div className="img-cont">
+                                <img src={client3} alt="..." />
+                            </div>
+                            <span style={{ textAlign: 'left'}}>Mr Ifeanyi</span>
                         </div>
                     <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
                 </div>
                <div className="testimony-content">
                         <div className="img-content">
-                            <div className="img-cont"><img src={client4} alt="..." /></div>
-                            <span style={{marginTop: '1rem'}}>Mr Ifeanyi</span>
+                            <div className="img-cont">
+                                <img src={client4} alt="..." />
+                            </div>
+                            <span>Mr Ifeanyi</span>
                         </div>
                     
                    <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>

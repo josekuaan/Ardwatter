@@ -359,6 +359,9 @@ and (max-device-width : 480px) {
   .testimony-content {
     width: 100%;
   }
+  .img-content{
+    height: 40%;
+  }
   .footer-content{
     flex-wrap: wrap;
   }
