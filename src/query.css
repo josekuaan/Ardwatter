@@ -366,3 +366,10 @@ and (max-device-width : 480px) {
     flex-wrap: wrap;
   }
 }
+
+@media only screen 
+and (max-device-width : 380px) {
+  .img-content{
+    height: 28%;
+  }
+}
