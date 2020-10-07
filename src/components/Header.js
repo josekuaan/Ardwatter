@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ardwatter from "../images/ardwatter.png";
 import { Link } from "react-router-dom";
+import { FaAlignJustify, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
 
 export default function Header() {
@@ -74,22 +75,14 @@ export default function Header() {
             <div className="toggle-nav">
               <div className="">
                 <Link to="#" className="menu-bars" onClick={showSidebar}>
-                  <i
-                    style={{ color: "white" }}
-                    
-                    className="fas fa-align-justify"
-                  ></i>
+                  <FaAlignJustify style={{ color: "white" }} />
                 </Link>
               </div>
               <div className={sidebar ? "nav-menu active" : "nav-menu"}>
                 <ul className="nav-menu-items">
                   <li className="navbar-toggle">
                     <Link to="#" className="menu-bars" onClick={ showSidebar}>
-                      <i
-                        style={{ color: "white" }}
-                        
-                        className="far fa-times"
-                      ></i>
+                    <FaTimes style={{ color: "white" }} />
                     </Link>
                   </li>
                   <li className="nav-items">
